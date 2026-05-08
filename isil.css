@@ -1,0 +1,160 @@
+.cabeza {
+  display: flex;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.cabeza img {
+  width: 200px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.cabeza h1 {
+  background-color: white;
+  padding: 10px 20px;
+  font-size: 70px;
+  text-shadow: 8px 8px 6px rgb(63, 63, 63);
+  color: rgb(0, 195, 255);
+}
+.autor {
+  text-align: right;
+  font-weight: bold;
+  margin-right: 20px;
+  background: white;
+  padding: 3px;
+  width: fit-content;
+  margin-left: auto;
+}
+h2 {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  font-size: 40px;
+}
+.texto1 {
+  font-size: 44px;
+}
+.definiciones {
+  display: flex;
+  gap: 10px;
+  border: 6px solid #333;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  height: 600px;
+}
+.caja {
+  background-color: #e0e0e0;
+  border: 1px solid #999;
+  text-align: center;
+  width: 33%;
+  padding-bottom: 15px;
+  height: 580px;
+}
+.caja h3 {
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+}
+.caja p {
+  text-align: left;
+  padding: 0 10px;
+  font-size: 30px;
+}
+.caja img {
+  width: 80px;
+  margin-top: 10px;
+}
+.caja-html h3 {
+  background-color: #c0392b;
+}
+.caja-css h3 {
+  background-color: #2980b9;
+}
+.caja-js h3 {
+  background-color: #7dbb3c;
+}
+.caja-html {
+  background-color: #fdd8d8;
+}
+.caja-css {
+  background-color: #cfd7fa;
+}
+.caja-js {
+  background-color: #d2ffd9;
+}
+
+.cuadro2 {
+  display: flex;
+  gap: 10px;
+  border: 6px solid #333;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.caja2 {
+  border: 1px solid #999;
+  text-align: center;
+  width: 33%;
+  padding-bottom: 15px;
+}
+
+.caja2 h3 {
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.caja2 p {
+  text-align: left;
+  padding: 0 10px;
+  font-size: 30px;
+}
+
+.caja2-html h3 {
+  background-color: #c0392b;
+}
+.caja2-css h3 {
+  background-color: #2980b9;
+}
+.caja2-js h3 {
+  background-color: #7dbb3c;
+}
+.caja2-html {
+  background-color: #fdd8d8;
+}
+.caja2-css {
+  background-color: #cfd7fa;
+}
+.caja2-js {
+  background-color: #d2ffd9;
+}
+.casas {
+  width: fit-content;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 5px 8px 15px black;
+}
+.resumen {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 85%;
+  margin: 20px auto;
+  font-size: 30px;
+  background-color: white;
+  box-shadow: 5px 5px 5px black;
+}
+body {
+  background-image: url(img/fondo.jpg);
+}
+hr {
+  border: 80%;
+  margin: 30px auto;
+}
